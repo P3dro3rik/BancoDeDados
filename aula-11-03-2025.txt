@@ -1,4 +1,10 @@
--- Aula do dia 11/03/2025 
--- Professor Molina
+-- COMANDO PARA SELECIONAR TODOS OS
+-- REGISTROS DA TABLEA MÉDICOS
+SELECT *
+FROM medicos;
+ 
+-- COMANDO PARA SELECIONAR APENAS OS NOMES E IDADES DA TABELA MÉDICOS 
+SELECT nome, idade
+FROM medicos;
 
---Comando SELECT 
+SELECT * FROM medicos WHERE codm = 3; 
